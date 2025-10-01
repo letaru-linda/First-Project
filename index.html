@@ -86,6 +86,7 @@
      <P>This is a simple example of registration form.</P>
      <form action="">
         <!-- Text input -->
+         <p>Please register your details here</p>
         <label for="fullname">Full Name*:</label>
         <input type="text" id="fullname" name="fullname" placeholder="Enter your name here!" required><br><br>
         <!-- Email input -->
@@ -110,8 +111,18 @@
         <input type="checkbox">
         <label for="">Javascript</label>
         <input type="checkbox"> <br><br>
-        <label for="">Country:</label>
-        <button>Register</button>
+        <!-- Drop down -->
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+           <option value="USA">USA</option>
+           <option value="Uganda">Uganda</option>
+           <option value="Ghana">Ghana</option>
+           <option value="California">California</option>
+           <option value="Scotland">Scotland</option>  
+        </select><br><br>
+
+        
+        <button type="submit">Register</button>
      </form>
 </body>
 </html>
